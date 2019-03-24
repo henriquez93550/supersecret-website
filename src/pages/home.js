@@ -4,6 +4,7 @@ import img from "../images/arcade.jpg";
 import { Link } from "react-router-dom";
 import { HomeHeader, Banner, BannerButton } from "../utils";
 import Summary from "../components/Summary";
+import Testimonial from "../components/Testimonials";
 
 export default class home extends Component {
   render() {
@@ -19,6 +20,7 @@ export default class home extends Component {
           </Banner>
         </HomeHeader>
         <Summary />
+        <Testimonial />
 
         <Footer />
       </React.Fragment>
